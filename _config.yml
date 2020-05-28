@@ -44,6 +44,7 @@ branding:
   navigation_background_color: '#eee'
   navigation_link_color: '#444'
   navigation_link_color_hover: 'gray'
+  navigation_background_color_hover: '#eee'
   main_background_color: '#fff'
   highlight_color: '#444'
   code_background_color: '#f9f9f9'
