@@ -11,6 +11,9 @@ author: Lundegaard a.s.
 email: design-systems@lundegaard.eu
 baseurl: "/design-system-template" # the subpath of your site, e.g. /blog
 url: "https://lundegaard.github.io/" # the base hostname & protocol for your site
+lang: en
+logo_alt: Design System Template logo
+logo_title: Design System Template
 
 # Build settings
 markdown: kramdown
@@ -43,8 +46,9 @@ branding:
   logo_path: '/assets/logo.svg'
   navigation_background_color: '#eee'
   navigation_link_color: '#444'
-  navigation_link_color_hover: 'gray'
-  navigation_background_color_hover: '#eee'
+  navigation_link_color_hover: '#444'
+  navigation_link_border-color_focus: '#333'
+  navigation_background_color_hover: '#d4d4d4'
   main_background_color: '#fff'
   highlight_color: '#444'
   code_background_color: '#f9f9f9'
