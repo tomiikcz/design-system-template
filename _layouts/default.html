@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang }}">
 
 	{% include head.html %}
 
@@ -7,7 +7,7 @@
 
         {% if site.gtm_id %}
         <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         {% endif %}
 
@@ -20,22 +20,21 @@
             </div><!--end l-page-layout__secondary-->
 
             <div class="l-page-layout__main">
-
-                <main role="main">
-                	<div class="l-container">
+                <main>
+                	<div class="l-container" role="main">
 
                         {% include breadcrumbs.html %}
 
                         {{ content }}
 
 	                </div><!--end l-container-->
-				</main><!--end role=main-->
+				</main><!--end main-->
 
                 {% include footer.html %}
 
-            </div><!--end l-page-layout__main-->
+            </div>
 
-        </div><!--end l--two-column-fixed-->
+        </div>
 
         {% include scripts.html %}
 	</body>

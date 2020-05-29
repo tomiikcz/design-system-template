@@ -32,8 +32,9 @@
 
 $navigation_background_color: {{ site.branding.navigation_background_color | default: '#eee' }};
 $navigation_link_color: {{ site.branding.navigation_link_color | default: '#444' }};
-$navigation_link_color_hover: {{ site.branding.navigation_link_color_hover | default: 'gray' }};
-$navigation_background_color_hover: {{ site.branding.navigation_background_color_hover | default: '#eee' }};
+$navigation_link_color_hover: {{ site.branding.navigation_link_color_hover | default: '#444' }};
+$navigation_link_border-color_focus: {{ site.branding.navigation_link_border-color_focus | default: '#000' }};
+$navigation_background_color_hover: {{ site.branding.navigation_background_color_hover | default: '#d4d4d4' }};
 $main_background_color: {{ site.branding.main_background_color | default: '#fff' }};
 $highlight_color: {{ site.branding.highlight_color | default: '#444' }};
 $code_background_color: {{ site.branding.code_background_color | default: '#f9f9f9' }};
