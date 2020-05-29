@@ -110,20 +110,20 @@
 	/**
 	 * Primary navigation link withing active item
 	 */
-	.c-primary-nav__item.is-active & {
-		@media all and (min-width: $bp-xl) {
-			background: $navigation_link_color;
-			color: $navigation_link_color_hover;
-		}
-	}
+	// .c-primary-nav__item.is-active & {
+	// 	@media all and (min-width: $bp-xl) {
+	// 		background: $navigation_link_color;
+	// 		color: $navigation_link_color_hover;
+	// 	}
+	// }
 
 	/**
 	 * Primary navigation link within active item in vertical header
 	 */
-	.c-header--vertical .c-primary-nav__item.is-active & {
-		background: none;
-		color: $navigation_link_color;
-	}
+	// .c-header--vertical .c-primary-nav__item.is-active & {
+	// 	background: none;
+	// 	color: $navigation_link_color;
+	// }
 }
 
 /**
@@ -279,7 +279,7 @@
 	 * Primary navigation icon within active link
 	 */
 	.c-primary-nav__item.is-active & {
-		fill: $navigation_link_color_hover;
+		// fill: $navigation_link_color_hover;
 		transform: rotate(180deg);
 	}
 
@@ -287,7 +287,7 @@
 	 * Primary navigation icon within active link within vertical header
 	 */
 	.c-header--vertical .c-primary-nav__item.is-active & {
-		fill: $navigation_link_color;
+		// fill: $navigation_link_color;
 		transform: rotate(90deg);
 	}
 
@@ -341,6 +341,7 @@
 	/**
 	 * Primary navigation icon within hovered/focused primary navigation link
 	 */
+
 	.c-primary-nav__sublink:focus & {
 		fill: $navigation_link_color;
 	}
