@@ -294,7 +294,10 @@
 	/**
 	 * Primary navigation icon within hovered/focused primary navigation link
 	 */
-	.c-primary-nav__link:hover &,
+	.c-primary-nav__link:hover & {
+		fill: $navigation_link_color_hover;
+	}
+
 	.c-primary-nav__link:focus & {
 		fill: $navigation_link_color;
 	}
@@ -334,7 +337,10 @@
 	/**
 	 * Primary navigation icon within hovered/focused primary navigation link
 	 */
-	.c-primary-nav__sublink:hover &,
+	.c-primary-nav__sublink:hover & {
+		fill: $navigation_link_color_hover;
+	}
+	
 	.c-primary-nav__sublink:focus & {
 		fill: $navigation_link_color;
 	}
