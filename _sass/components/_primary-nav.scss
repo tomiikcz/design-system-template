@@ -334,6 +334,6 @@
 	 * Primary navigation icon within hovered/focused primary navigation link
 	 */
 	.c-primary-nav__sublink:hover &, .c-primary-nav__sublink:focus & {
-		fill: $navigation_link_color_hover;
+		fill: $navigation_link_color;
 	}
 }
