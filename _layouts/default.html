@@ -13,12 +13,6 @@
 
         <div class="l-page-layout l-page-layout--two-column-fixed">
 
-            <div class="l-page-layout__secondary">
-
-                {% include header.html %}
-
-            </div><!--end l-page-layout__secondary-->
-
             <div class="l-page-layout__main">
                 <main>
                 	<div class="l-container">
@@ -27,10 +21,16 @@
 
                         {{ content }}
 
-	                </div><!--end l-container-->
-				</main><!--end main-->
+	                </div>
+				</main>
 
                 {% include footer.html %}
+
+            </div>
+
+            <div class="l-page-layout__secondary">
+
+                {% include header.html %}
 
             </div>
 
