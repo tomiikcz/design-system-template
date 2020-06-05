@@ -55,10 +55,12 @@
 	 * 1) Margin left equals width of the fixed positioned sidebar
 	 */
     .l-page-layout--two-column-fixed > & {
-        height: 100vh;
+		height: 100vh;
+		padding-top: 80px;
 
         @media all and (min-width: $bp-xl) {
             margin-left: 18rem; /* 1 */
+			padding-top: 0;
         }
     }
 }
@@ -77,8 +79,13 @@
 	 * 1) This is a fixed element
 	 */
     .l-page-layout--two-column-fixed > & {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+
         @media all and (min-width: $bp-xl) {
-            position: fixed;
+			position: fixed;
     	    z-index: 2;
             overflow: auto;
 			width: 18rem;
