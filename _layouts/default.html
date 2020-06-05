@@ -7,30 +7,30 @@
 
         {% if site.gtm_id %}
         <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         {% endif %}
 
         <div class="l-page-layout l-page-layout--two-column-fixed">
 
-            <div class="l-page-layout__secondary">
-
-                {% include header.html %}
-
-            </div><!--end l-page-layout__secondary-->
-
             <div class="l-page-layout__main">
                 <main>
-                	<div class="l-container" role="main">
+                	<div class="l-container">
 
                         {% include breadcrumbs.html %}
 
                         {{ content }}
 
-	                </div><!--end l-container-->
-				</main><!--end main-->
+	                </div>
+				</main>
 
                 {% include footer.html %}
+
+            </div>
+
+            <div class="l-page-layout__secondary">
+
+                {% include header.html %}
 
             </div>
 

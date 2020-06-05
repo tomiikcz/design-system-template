@@ -1,6 +1,5 @@
-<nav class="c-primary-nav" role="navigation">
-
-	<ul class="c-primary-nav__list c-primary-nav__list--flush js-nav-panel" role="tablist" aria-multiselectable="true">
+<nav class="c-primary-nav">
+	<ul class="c-primary-nav__list c-primary-nav__list--flush js-nav-panel">
 		{% for item in site.data.primary-nav %}
 			{% if item.group %}
 				{% include primary-nav-item.html group=item.group title=item.title %}
@@ -10,4 +9,4 @@
 		{% endfor %}
 	</ul>
 
-</nav><!-- end c-nav -->
+</nav>
