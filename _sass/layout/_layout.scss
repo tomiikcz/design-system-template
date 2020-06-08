@@ -49,20 +49,22 @@
 	height: 100vh;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	padding-left: 1rem;
+	padding-right: 1rem;
 
     /**
 	 * Main section of 2 column fixed layout
 	 * 1) Margin left equals width of the fixed positioned sidebar
 	 */
-    .l-page-layout--two-column-fixed > & {
+	.l-page-layout--two-column-fixed > & {
 		height: 100vh;
 		padding-top: 80px;
-
-        @media all and (min-width: $bp-xl) {
-            margin-left: 18rem; /* 1 */
+		
+		@media all and (min-width: $bp-xl) {
+			margin-left: 18rem; /* 1 */
 			padding-top: 0;
-        }
-    }
+		}
+	}
 }
 
 /**
