@@ -103,15 +103,21 @@
 
 	/**
 	 * Active tabs link
+	 * Focus tabs link
+	 * Hover tabs link
 	 */
+	&:hover,
+	&:focus,
 	&.is-active {
 		font-weight: 500;
-		cursor: default;
 		color: $tabs_active;
 
 		&::after {
 			content: '';
 		}
+	}
+	&.is-active {
+		cursor: default;
 	}
 
 	/**
